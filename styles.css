@@ -1,0 +1,197 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+.start{
+    background-image: url("img/SE.jpg");
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    background-size: cover;
+    margin-top:-40px ;
+}
+
+
+li  {
+    margin-top:60px ;
+    margin-right:20px;
+    list-style-type: none;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 16px 16px;
+    text-decoration: none;
+    float: right;
+    font-family: Calibri;
+    font-size: large;
+
+}
+
+
+.demobox {
+  background-color: lawngreen;
+  padding: 10px ;
+  border: 1px solid lawngreen ;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.pic{
+    margin-right: 400px;
+    margin-top: 20px;
+}
+
+.home{
+    text-decoration: underline;
+}
+
+.Intro{
+    float: left;
+    margin-left: 80px;
+    margin-top: 200px;
+    font-size: xxx-large;
+    font-family: Calibri;
+}
+.intro2{
+    float: left;
+    margin-left: -430px;
+    margin-top: 350px;
+    font-size: x-large;
+    font-family: Calibri;
+}
+
+.demobox2 {
+  background-color: lawngreen;
+  padding: 10px ;
+  border: 1px solid lawngreen ;
+  border-radius: 10px;
+  font-size: large;
+  margin-left: -630px;
+  margin-top: 450px;
+  float: left;
+}
+
+.part1-1{
+    text-align: center;
+    color: lawngreen;
+    font-size: xxx-large;
+    margin-left: -30px;
+}
+
+.part1-2{
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    margin-left: -30px;
+}
+
+.part2-1{
+    text-align: left;
+    color: lawngreen;
+    font-size: xxx-large;
+    margin-top: -205px;
+    margin-left: 280px;
+}
+
+.part2-2{
+    text-align: left;
+    color: black;
+    font-size: x-large;
+    margin-left: 250px;
+}
+
+.part3-1{
+    text-align: right;
+    margin-top: -205px;
+    margin-right:280px;
+    color: lawngreen;
+    font-size: xxx-large;
+}
+
+.part3-2{
+    text-align: right;
+    color: black;
+    font-size: x-large;
+    margin-right: 280px;
+}
+
+.img2{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+
+.meeting1{
+    margin-left: 100px;
+    float: left;
+    width: 40%;
+}
+
+.meeting1-1{
+    font-size: xxx-large;
+    margin-left: 50px;
+}
+
+.meeting1-2{
+    font-size: x-large;
+    margin-left: 50px;
+}
+
+.learn{
+    color: lawngreen;
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+
+.program{
+    height: 800px;
+    width: 100%;
+    background-color: lawngreen;
+    margin-top: 200px;
+}
+
+.pcenter{
+    text-align: center;
+    font-size: xxx-large;
+    color: white;
+}
+
+.FSW{
+    max-width:20% ;
+    background-color: white;
+    border: 15px black;
+    padding: 25px;
+    margin-left: 300px;
+    margin-right: 250px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+}
+
+.FSW2{
+    max-width:20% ;
+    background-color: white;
+    border: 15px black;
+    padding: 25px;
+    margin-right: 900px;
+    margin-top: -410px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+}
+
+.learn-more{
+    color: lawngreen;
+}
