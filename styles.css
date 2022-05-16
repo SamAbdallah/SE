@@ -12,10 +12,13 @@ html,body{
 .start{
     background-image: url("img/SE.jpg");
     width: 100%;
-    height: 700px;
     box-sizing: border-box;
     background-size: cover;
     margin-top:-40px ;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
@@ -31,6 +34,7 @@ li  {
     float: right;
     font-family: Calibri;
     font-size: large;
+    flex-wrap: wrap;
 
 }
 
@@ -79,47 +83,45 @@ li  {
 }
 
 .part1-1{
-    text-align: center;
+
     color: lawngreen;
     font-size: xxx-large;
-    margin-left: -30px;
+    float: left ;
+    margin-bottom: 30px;
 }
 
 .part1-2{
-    text-align: center;
+    float: left;
     color: black;
-    font-size: x-large;
-    margin-left: -30px;
+    font-size: large;
+
 }
 
 .part2-1{
-    text-align: left;
+
     color: lawngreen;
     font-size: xxx-large;
-    margin-top: -205px;
-    margin-left: 280px;
+    margin-bottom:20 px;
+
 }
 
-.part2-2{
-    text-align: left;
+.part2-2 {
+
     color: black;
-    font-size: x-large;
-    margin-left: 250px;
+    font-size: large;
 }
 
 .part3-1{
-    text-align: right;
-    margin-top: -205px;
-    margin-right:280px;
+    margin-bottom: px;
     color: lawngreen;
     font-size: xxx-large;
 }
 
 .part3-2{
-    text-align: right;
+
     color: black;
-    font-size: x-large;
-    margin-right: 280px;
+    font-size: large;
+
 }
 
 .img2{
@@ -175,7 +177,7 @@ li  {
     margin-right: 250px;
     border-radius: 10px;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     color: black;
 }
 
@@ -188,7 +190,7 @@ li  {
     margin-top: -410px;
     border-radius: 10px;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     color: black;
 }
 
@@ -224,6 +226,7 @@ li  {
 
 .partners{
     background-color: lightgrey;
+    padding: 15px;
 }
 
 .media{
@@ -235,4 +238,121 @@ hr.solid{
     border-top:2px solid black ;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.demobox3{
+    background-color: black;
+    padding: 10px ;
+    border: 1px solid black ;
+    border-radius: 10px;
+    font-size: large;
+    color: white;
+    text-align: center;
+    width:100px;
+    box-sizing: border-box;
+    margin-left: 45%
+}
+.final{
+    background-color: black;
+    margin-top: -18px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.flex-container > li {
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+}
+
+.first{
+    color: lawngreen;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.second{
+   margin-left: 25%;
+   margin-top: 30px;
+}
+
+
+.third{
+margin-top: 30px;
+margin-left: 24%;
+}
+
+.start {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid white;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+
+.green th, td {
+  text-align: left;
+  padding: 16px;
+  background-color: white;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    background: lawngreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background: white;
+}
+
+.box2{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background: white;
+}
+.container2 {
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width:750px ){
+    .FSW{
+        font-size: small;
+    }
+    .FSW2{
+        font-size: small;
+    }
 }
