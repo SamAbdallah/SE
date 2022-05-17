@@ -348,11 +348,30 @@ th, td {
     justify-content: space-around;
 }
 
-@media (max-width:750px ){
+@media (max-width:800px ){
     .FSW{
         font-size: small;
     }
     .FSW2{
         font-size: small;
     }
+    .intro2{
+        font-size: large;
+        margin-right: 10px;
+        width: 100%;
+        float: right;
+    }
+    .Intro{
+        font-size: xx-large;
+        margin-bottom: -300px;
+        margin-right: 200px;
+        width: 100%;
+        float: right;
+
+    }
+    .demobox2{
+        float: right;
+        margin-right: 150px;
+    }
+
 }
