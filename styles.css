@@ -38,7 +38,6 @@ li  {
 
 }
 
-
 .demobox {
   background-color: lawngreen;
   padding: 10px ;
@@ -48,7 +47,7 @@ li  {
 }
 
 .pic{
-    margin-right: 400px;
+    float: left;
     margin-top: 20px;
 }
 
@@ -62,6 +61,7 @@ li  {
     margin-top: 200px;
     font-size: xxx-large;
     font-family: Calibri;
+    color: white;
 }
 .intro2{
     float: left;
@@ -69,6 +69,7 @@ li  {
     margin-top: 350px;
     font-size: x-large;
     font-family: Calibri;
+    color: white;
 }
 
 .demobox2 {
@@ -169,7 +170,6 @@ li  {
 }
 
 .FSW{
-    max-width:20% ;
     background-color: white;
     border: 15px black;
     padding: 25px;
@@ -182,7 +182,7 @@ li  {
 }
 
 .FSW2{
-    max-width:20% ;
+
     background-color: white;
     border: 15px black;
     padding: 25px;
@@ -348,12 +348,12 @@ th, td {
     justify-content: space-around;
 }
 
-@media (max-width:800px ){
+@media (max-width:900px ){
     .FSW{
-        font-size: small;
+        font-size: large;
     }
     .FSW2{
-        font-size: small;
+        font-size: large;
     }
     .intro2{
         font-size: large;
@@ -373,5 +373,38 @@ th, td {
         float: right;
         margin-right: 150px;
     }
-
+    .container2{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+    }
 }
+
+@media (max-width:1000px ){
+    .intro2{
+        font-size: large;
+        margin-right: 10px;
+        width: 100%;
+        float: right;
+    }
+    .Intro{
+        font-size: xx-large;
+        margin-bottom: -300px;
+        margin-right: 200px;
+        width: 100%;
+        float: right;
+
+    }
+    .demobox2{
+        float: right;
+        margin-right: 150px;
+    }
+}
+
+
+
+
